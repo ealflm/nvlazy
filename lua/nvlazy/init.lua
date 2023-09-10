@@ -1,8 +1,8 @@
 local M = {}
 
 M.setup = function()
-    require("nvterm.terminal")
-    require("nvterm.termutil")
+    require("term.terminal")
+    require("term.termutil")
 end
 
 return M
