@@ -1,8 +1,8 @@
 local M = {}
 
 M.setup = function()
-    require("term.terminal")
-    require("term.termutil")
+    require("nvlazy.term.terminal")
+    require("nvlazy.term.termutil")
 end
 
 return M
